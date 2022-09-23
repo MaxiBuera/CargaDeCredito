@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "cargadecredito",
+    "slug": "cargadecredito",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_utn_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_utn.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_utn_icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.maxibuera.cargadecredito"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
