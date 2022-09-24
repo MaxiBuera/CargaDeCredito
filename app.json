@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "cargadecredito",
-    "slug": "cargadecredito",
+    "name": "CargaDeCredito",
+    "slug": "CargaDeCredito",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo_utn_icon.png",
+    "icon": "./assets/qr_icono.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash_utn.png",
@@ -22,10 +22,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo_utn_icon.png",
+        "foregroundImage": "./assets/qr_icono.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.maxibuera.cargadecredito"
+      "package": "com.maxibuera.CargaDeCredito"
     },
     "web": {
       "favicon": "./assets/favicon.png"

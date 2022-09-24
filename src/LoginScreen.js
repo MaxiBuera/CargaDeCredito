@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, ImageBackground, Modal, BackHandler, Image } from 'react-native';
 import { initializeApp } from 'firebase/app';
 import { firebaseConfig } from '../firebase-config';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from 'firebase/auth';
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigation } from '@react-navigation/native';
 
 export function LoginScreen() {
@@ -17,20 +17,10 @@ export function LoginScreen() {
         return () => backHandler.remove();
     }, []);*/
       
-    const image = require('../assets/background2.png');
+    const image = require('../assets/qr_background.png');
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
     const navigation = useNavigation();
-
-    //function cerrar(){
-    //    signOut()
-    //    .then(function() {
-    //        console.log('Salir');
-    //    })
-    //    .catch(function() {
-    //        console.log('Salir');
-    //    })
-    //}
 
     const handleCreateAccount = () => {
 

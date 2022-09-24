@@ -8,9 +8,9 @@ import { getAnalytics } from "firebase/analytics";*/
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 export const firebaseConfig = {
   apiKey: "AIzaSyB_NGILhp3TLQkCxS4FudCO3pyyZzEjcPo",
-  authDomain: "pruebaapp-61e6c.firebaseapp.com",
-  projectId: "pruebaapp-61e6c",
-  storageBucket: "pruebaapp-61e6c.appspot.com",
+  authDomain: "cargadecredito-61e6c.firebaseapp.com",
+  projectId: "cargadecredito-61e6c",
+  storageBucket: "cargadecredito-61e6c.appspot.com",
   messagingSenderId: "422225343317",
   appId: "1:422225343317:web:f6b71711c72b2b63e4f5dc",
   measurementId: "G-B4J2HSSBHG"
